@@ -1,0 +1,211 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Septima Aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp7.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="acciones" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('imagenes/1.JPG','imagenes/lugar.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-add-back-btn="Regresar" data-back-btn-theme="a">
+  <h1>Informacion sobre la Batalla de Puebla</h1>
+   </div>
+<!-- Start WOWSlider.com -->
+<iframe src="visor/indexwol.html" style="width:960porcentaje;height:360porcentaje;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+
+<div>
+  <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Origen de la Batalla  </h2>
+   <p>Muestra el origen de la batalla</p>
+   </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Personajes que Participan y Lugar de origen</h2>
+   <p>Muestra personajes q participan y lugar de origen</p>
+   </a>
+   </li>
+     <li class="ui-first-child ui-last-child">
+   <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Como se conmemora Y conclucion de la batalla</h2>
+   <p> Muestra como se celebra y la conclucion</p>
+     </a>   
+   </li> 
+   </ul>
+</div>
+<div data-role="footer" align="center" data-theme="a"data-position="fixed">
+   <div>
+   <img src="imagenes/ba.png" width="46" height="46">
+   </div>
+    <h4>Aplicacion 7</h4>
+    <h4>Andrea Paola Martinez Perez </h4>
+    </div>
+    </div>
+    </div>  
+     
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>Origen de la Batalla</h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+       <p>Origen de la batalla de Puebla</p>
+       <br>
+       <P>En octubre de 1861, Francia, Inglaterra y España suscribieron la Convención de Londres, en la cual se comprometieron a enviar contingentes militares a México para reclamar sus derechos como acreedores por una deuda que ascendía a alrededor de 80 millones de pesos, aproximadamente eran 69 millones para los ingleses, 9 millones para los españoles y 2 millones para Francia.
+
+El contingente europeo, estaba compuesto de la siguiente manera:
+
+España: 6000 hombres al mando del General Juan Prim
+Francia: 3000 hombres dirigidos por el Contraalmirante Jurien de la Gravière.
+Reino Unido: 700 marines bajo el comando del Comodoro Dunlop.2
+Poco después de reunirse, los representantes de los tres países enviaron un ultimátum al gobierno mexicano en el que pedían el pago de sus deudas; de lo contrario, invadirían el país. Juárez, quien gobernaba a un país que apenas empezaba a levantarse de la postración económica, respondió con un exhorto a lograr un arreglo amistoso, y los invitó a conferenciar. Acompañó ese mensaje con la derogación del decreto que suspendió los pagos. Al mismo tiempo, en vista de la posibilidad real de una invasión militar que buscara llegar hasta la Ciudad de México, ordenó el traslado de pertrechos y la fortificación de Puebla, así como crear una unidad, a la que se designó como Ejército de Oriente, que fue puesta bajo el mando del general José López Uraga. En vista del desempeño deficiente de este mando, fue destituido y en su lugar se designó a Zaragoza, quien dejó el Ministerio de Guerra y se dirigió a Puebla para organizar la oposición al avance francés con cerca de 10,000 hombres; cantidad mínima si se toma en cuenta el vasto territorio que debía cubrirse.</P>
+       <P><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image94','','imagenes/1.JPG',1)"><img src="imagenes/ante.JPG" width="250" height="192" id="Image94"></a></P>
+<br>
+<p>Los representantes aceptaron el llamado y en febrero de 1862 se reunieron con los ministros juaristas del Exterior, Manuel Doblado, y de Guerra, Ignacio Zaragoza, en la hacienda de La Soledad, cerca de Veracruz. Gracias a la habilidad como negociador de Doblado se firmaron los Tratados preliminares de La Soledad, en los que se obtuvo el reconocimiento como interlocutor para el gobierno de Juárez y se garantizó el respeto a la integridad e independencia del país. Además, se convino que las negociaciones sobre la deuda se realizaran en Orizaba, donde se establecerían las fuerzas aliadas, además de Córdoba y Tehuacán, para evitar el rigor del clima tropical del puerto; si no se llegaba a un acuerdo, se retirarían a la costa para así comenzar las hostilidades.</p>
+<p><a href="https://es.wikipedia.org/wiki/Batalla_de_Puebla">Para mas Informacion dar CLIKC AQUI</a></p>
+
+       </div>
+       </div>
+       <div data-role="footer"align="center"data-theme="b" data-position="fixed">
+       <img src="imagenes/ba.png" width="46" height="46">
+       <h4>Aplicacion 7, MPAP </h4>
+       </div></div>
+       </div>
+       
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>Personajes que participaron y Lugar de origen</h1>
+      </div>
+       <div data-role="content" align="center">
+         <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+   <h1>Lugar de Batalla</h1>
+   <div>
+   <p>Lugar de Batalla </p>
+   <br>
+   <p>La batalla de Puebla fue un combate librado el 5 de mayo de 1862 en las cercanías de la ciudad de Puebla, entre los ejércitos de la República Mexicana, bajo el mando de Ignacio Zaragoza, y del Segundo Imperio Francés, dirigido por Charles Ferdinand Latrille, conde de Lorencez, durante la Segunda Intervención Francesa en México, cuyo resultado fue una victoria importante para los mexicanos ya que con unas fuerzas consideradas como inferiores lograron vencer a uno de los ejércitos más experimentados y respetados de su época. </p>
+   <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image84','','imagenes/lugar.jpg',1)"><img src="imagenes/ba.jpg" width="200" height="128" id="Image84"></a></p>
+   </div>
+   </div>
+   </div>
+    <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+   <h1>Personajes que participaron</h1>
+   <div>
+   <p>Personajes que participaron </p>
+   <br>
+   <img src="imagenes/ben.jpg" width="150" height="100">
+   <p>Benito Juárez</p>
+<br>
+<p>Benito Pablo Juárez García, nació en San Pablo Guelatao, Oaxaca un 21 de marzo de 1806, engalanando las filas de la política mexicana dentro del Partido Liberal. Abogado de profesión, ocupo el cargo de Presidente de México en varias ocasiones, en 1858 y posteriormente en 1872. A pasado a la historia como el “Benemérito de las Américas y se le recuerda por la celebre frase: Entre los individuos, como entre las naciones, el respeto al derecho ajeno es la paz. </p>
+<img src="imagenes/ig.jpg" width="150" height="100">
+   <p>Ignacio Zaragoza</p>
+ <br>
+<p>Ignacio Zaragoza, nació en Oaxaca el 4 de agosto de 1814. Reconocido militar y político mexicano participó en la Primera Intervención Estadounidense en México, además de la Guerra de Reforma y otras guerras civiles.</p>
+<img src="imagenes/ve.jpg" width="150" height="100">
+<p>Porfirio Diaz</p>
+<br>
+<p>José de la Cruz Porfirio Díaz Mori1 (Oaxaca de Juárez, Oaxaca, 15 de septiembre de 1830-París, Francia, 2 de julio de 1915) fue un militar mexicano,2 que ejerció el cargo de presidente de México en siete ocasiones; la primera, del 24 de noviembre de 1876 al 6 de diciembre de 1876 (después del triunfo de la Revolución de Tuxtepec, ocupando el cargo de forma interina); y la segunda vez, del 17 de febrero de 1877 al 5 de mayo de 1877. Nuevamente, ocupó el cargo de forma interina del 5 de mayo de 1877 al 30 de noviembre de 1880 (después de haber sido elegido Presidente). Y posteriormente, desempeñó la presidencia durante los periodos: 1884-1888, 1888-1892, 1892-1896, 1896-1900, 1900-1904, 1904-1910 y 1910-1911.</p>
+<img src="imagenes/mi.jpg" width="150" height="100">
+<p>Miguel Negrete</p>
+<br>
+<p>Miguel Negrete Novoa (Tepeaca, Puebla, 8 de mayo de 1824 — Ciudad de México, 5 de enero de 1897) fue un militar mexicano, participó durante las guerras civiles del siglo XIX, así como durante las intervenciones de Estados Unidos y Francia. Fue ministro de Guerra durante la presidencia de Benito Juárez</p>
+<img src="imagenes/an.jpg" width="150" height="100">
+<p>Antonio Alvarez</p>
+<br>
+<p>Antonio Álvarez de Jonte (Madrid, 1784 – Pisco, Perú, 18 de octubre de 1820) fue un político argentino. Miembro del Segundo Triunvirato en 1812, luego de la revolución del 8 de octubre de ese año. Lo acompañaban Juan José Paso y Nicolás Rodríguez Peña, luego fue reemplazado por Gervasio Posadas.</p>
+<img src="imagenes/ch.jpg"width="150" height="100">
+<p>Charles Ferdinand</p>
+<br>
+<p>Charles Ferdinand Latrille, Conde de Lorencez (23 de mayo de 1814, París - 16 de julio de 1892), militar francés, mejor conocido solo como Conde de Lorencez, hijo de Guillaume Latrille de Lorencez, fue un militar francés que participó en la segunda intervención francesa en México, liderando al ejército francés en la batalla de Puebla, bajo el Emperador Maximiliano de México durante el siglo XiX. Era un pariente de la emperatriz Carlota, quién fue la única hija del Rey Leopoldo I, Rey de los Belgas y esposa del emperador Maximiliano.</p>
+
+   </div>
+   </div>
+   </div>
+       <div data-role="footer"align="center"data-theme="a"data-position="fixed">
+       <img src="imagenes/ba.png" width="46" height="46">
+       <h4>Aplicacion 7, MPAP </h4>
+       </div>
+       </div>
+       </div>
+       
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+       
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>Como se conmemora y Conclucion de la Batalla</h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+       <p>Como se conmemora la batalla de puebla y Conclucion</p>
+       <p>Cada 5 de mayo se conmemora la Batalla de Puebla, suceso histórico de 1862, que consistió en el ataque y defensa del Fuerte de Loreto y del Fuerte de Guadalupe, durante la invasión francesa de México, donde el Ejército Mexicano derrotó al Ejército Francés, dando buena fama al país. La fecha se festeja con un desfile militar en el que participan los diferentes batallones de infantería y fuerzas armadas; al término se lleva a cabo una verbena popular acompañada de platillos típicos, música y fiesta.
+
+La celebración aquí en Puebla se hace en grande , para empezar se abre la Feria de Mayo en Puebla a partir del 30 de Abril hasta el 30 de Mayo , en la Feria se podrán encontrar infinidad de cosas y juegos para todas las edades , con artistas famosos invitados para cada día que dure la Feria .
+
+A partir del día 3 y 4 de Mayo empiezan a llegar estudiantes de todas partes del Estado de Puebla como Tehuacán , Tecamachalco , Tepeaca , Chignahuapan , Azúcar de Matamoros , Teziutlan , Ciudad Serdán entre otros lugares e incluso llegan de otros estados circunvecinos .
+
+El día 5 de Mayo desde muy temprano se preparan todos. El año de 1999 se contó con la asistencia del Presidente de la República Ernesto Zedillo. A las 8:00 hrs miles de estudiantes y demás elementos que participaran en el desfile se dan cita en el lugar de inicio del desfile que es la esquina con Boulevard Valsequillo y Boulevard 5 de Mayo. Todas las calles aledañas serán ocupadas para formarse.
+
+Estudiantes de todos los niveles de educación participaran, el desfile empezara a las 11:00 hrs (tiempo de la Ciudad de México) y se recorrerá todo el Boulevard 5 de Mayo hasta donde se encuentra la Cruz Roja, por la 22 Oriente. (Cabe hacer mención que es así cada año</p>
+       <iframe width="300" height="200" src="https://www.youtube.com/embed/mnLR2r9RFow" frameborder="0" allowfullscreen></iframe>
+       <hr>
+       <p>Conclucion</p>
+       <p>La Batalla de Puebla tuvo lugar el 5 de mayo de 1862 cerca de la ciudad de Puebla (México), en el ataque y defensa del Fuerte de Loreto y del Fuerte de Guadalupe, durante la invasión francesa a México. En México se conmemora con el “Cinco de Mayo”. Fue una importante victoria mexicana con resonancia global, pues venció al ejército más experimentado y reputado de la época. 
+En 1861, después de la larga lucha conocida como la “Guerra de Tres años”, México estaba en pésimas condiciones económicas y políticas. Tenía una enorme deuda con España, Francia e Inglaterra . Por ello Benito Juárez, quien recientemente había sido eleguido Presidente de México, declaró una moratoria que duraría dos años, o sea que acordó no pagarles durante este tiempo para que México pudiera reponerse.
+
+Esta decisión, no gustó a las naciones extranjeras y así los franceses, españoles e ingleses vinieron a México con el fin de cobrarse a la fuerza la deuda.
+En octubre de 1861, España, Inglaterra y Francia se reunieron y decidieron invadir el país, para ello formaron una Alianza Militar Tripartita. Pero, si bien el motivo de la invasión era exigir el pago de las deudas, los países extranjeros tenían otros intereses particulares:
+- España quería recuperar el dominio de México, porque había perdido sus colonias en América. 
+-Inglaterra, contaba con un gran poder industrial y financiero y su imperio se había extendido por Asia y África, pero también querían extenderlo en América.
+- El imperio Francés se había desarrollado mucho en Europa y quería abrir nuevos mercados y establecer ricas colonias mineras.
+Así fue, con una idea común, pero con distintos fines, los ejércitos de los tres países aliados llegaron a México. Juárez les pidió que llegaran a un arreglo amistoso. Como resultado de las negociaciones elaboraron un documento llamado los Acuerdos o Tratados de Soledad y aceptaron la propuesta de Juárez sobre el pago de la deuda.En esta reunión también reconocieron el gobierno de Juárez; declararon que respetarían la integridad y la independencia nacional. España e Inglaterra cumplieron con los acuerdos, pero Francia no lo hizo y mandó tropas para invadir el país, por lo que se rompió la alianza.</p>
+<img src="imagenes/batalla2.jpg" width="150" height="100">
+       </div>
+       </div>
+       <div data-role="footer"align="center"data-theme="b" data-position="fixed">
+       <img src="imagenes/ba.png" width="46" height="46">
+       <h4>Aplicacion 7, MPAP </h4>
+       </div>
+       </div>
+       </div>
+       
+         
+</body>
+</html>
+
+
